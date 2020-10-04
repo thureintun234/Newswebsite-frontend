@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>X New - Breaking News,Latest News,Trending News</title>
+	<link rel="icon" href="images/logo.PNG">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<style>
+		#txt_more,#txt_more1,#txt_more2,#txt_more3,#txt_more4{
+			display: none;
+		}
+	</style>
+	
+</head>
+<body>
+	<!-- Navigation Bar -->	
+
+	<nav class="navbar navbar-expand-md navbar-light py-4 mr-4">
+		<div class="container-fluid nav_color px-5 py-1">
+			<a href="index.html" class="navbar-brand text-light nav_name">
+				X.News
+			</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#myNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="myNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link text-light">HOME</a></li>
+					<li class="nav-item dropdown"><a href="index.html" class="nav-link dropdown-toggle text-light" id="newstype" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NEWS </a>
+						<div class="dropdown-menu list_item" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="sport.html">Sports</a>
+							<a class="dropdown-item" href="politice.html">Political</a>
+							<a class="dropdown-item" href="it.html">Information Technology</a>
+							<a class="dropdown-item" href="edu.html">Education</a>
+							<a class="dropdown-item" href="economic.html">Economic</a>
+							<a class="dropdown-item" href="health.html">Health</a>
+							<a class="dropdown-item" href="food.html">Food</a>
+							<a class="dropdown-item" href="fashion.html">Fashion</a>
+							<a class="dropdown-item" href="wealther.html">Weather</a>
+						</div>
+					</li>
+					<li class="nav-item"><a href="about.html" class="nav-link text-light">ABOUT</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link text-light">CONTACT</a></li>
+					<li class="nav-item"><a href="trendnews.html" title="trendnews" class="nav-link text-light rotating"> <i class="fas fa-fire-alt"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container text-center my-5">
+		<div class="news">
+			<h2 class="text-center text-danger">What is Blazor?</h2>
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<img src="images/csharp.png" class="img-fluid py-3">
+					
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<img src="images/csharp2.png" class="img-fluid py-3">
+					
+				</div>
+			</div>
+			<p class="text-justify my-3">
+				<p class="text-justify">
+					Blazor ဆိုတာ WebUI framework ကို C# နဲ့ .Net Core  ကို front end အတွက်အသုံးပြုနိုင် ရန် ရည်ရွယ်တည်ဆောက်ထားတာဖြစ်ပါတယ်။ C# programming language ကိုအသုံးပြုပြီး front end  တွေရေး သားရန်အတွက် ဖြစ်ပါတယ်။ Blazor က C# နဲ့ Single-page application(SPAs) တည်ဆောက်နိုင်တဲ့ Framework တစ်ခုဖြစ်ပြီး မည်သည့် stand .Net library ကိုမဆို browser မှာ Run နိုင်အောင် ထောက်ပံ့ပေးပါတယ်။ Blazor မတိုင်ခင်က SPA တစ်ခုဆောက်ဖို့အတွက် Javascript, Typescript ကဲ့သို့ High –level language တစ်ခုခုအသုံးပြုခဲ့ကြပါတယ်။ Javascipt ရဲ့မူလအမည်ကို LiveScript လို့ခေါ်ခဲ့ပြီး ၄င်းရဲ့ Syntax တွေက Java နဲ့အရင်းဆင်တဲ့အတွက်ကြောင့်သာ JavaScript ဖြစ်သွားတာဖြစ်ပါတယ်။ ဒါပေမယ့် Java and JavaScript က ဆက်စပ်မှုတော့မရှိပါဘူး။ JavaScript Web ပေါ်မှာအလုပ်လုပ်ပုံကို ပုံ ၁ မှာပြထားပါတယ်။ 
+				</p>
+				<span id="txt_more">
+					<p class="text-justify">
+						.Js file ကို parse လုပ်ပြီး bytecode အဖြစ်အရင်ပြောင်းရပါတယ်။ ပြီးမှ အဲဒီ bytecode ကို JIT compiler က naïve code အဖြစ်ပြောင်းပေးလိုက်တာရတာဖြစ်ပါတယ်။ Web Development project အတွက်ပုံမှန်အားဖြင့် JavaScript အတွက်တယောက် နဲ့ အခြား back end အတွက် တယောက် လူ ၂ယောက်လိုလေ့ရှိပါတယ်။ တခါတလေမှာ Design အတွက် HTML နဲ့ CSS သမားတွေပါလိုလေ့ရှိပါတယ်။  Blazor technology က Web project အတွက် Java Script developer ရဲ့ အခန်းကဏ္ဍ ကိုလုံး၀ဖယ်ရှားပေးလိုက်ပါတယ်။ ဒါပေမယ့် Java Script ကို blazor technology မှာတွဲပြီးသုံးနိုင်ပါတယ်။ Design နဲ့ပက်သက်ပြီး Css,HTML တို့ကိုတော့လိုအပ်နေဉီးမှာဖြစ်ပါတယ်။  အာ့တော့ အထက်ပါ process ကိုပိုပြီး မြန်ဆန်အောင် ဘယ်လိုလုပ်ကြမလဲ။ Figure 1. The JavaScript execution process
+
+					</p>
+
+					<p class="text-justify">WebAssembly</p>
+					<p  class="text-justify">
+						WebAssembly ဆိုတာ  browser ပေါ်မှာ  C++,C# ကဲ့သို့ language များ compile လုပ်နိုင်တဲ့ technology ဖြစ်ပြီး အဲဒီ technology ကြောင့်ပဲ blazor တည်ရှိနေရခြင်းဖြစ်ပါတယ်။ ယေဘုယျအားဖြင့် Blazor က source code file ကို browser ကိုပို့ပြီး WebAssembly က ၄င်း file ကို binary file အဖြစ် compile လုပ်တာဖြစ်ပါတယ်။ WebAssembly က Code ကို Serve ဆီသို့ parsing and compile လုပ်နိုင်ပြီး WASM(WebASseMbly အတိုကောက်) format သို့ပြောင်းပေးနိုင်ပါတယ်။ ထို့နောက် အဲဒီ compiled code ကို JIT ရှိတဲ့ browser ကနေ download ချပြီး naïve code ကိုပြောင်းပေးပါတယ် (ပုံ 2) ။WebAssembly က stack-based virtual machineအတွက် binary instruction format ဖြစ်ပါတယ်။ WebAssembly ကို Web for client and server application တွေမှာ  high level languages တွေဖြစ်တဲ့ C/C++/Rust  အစရှိတဲ့ language တွေcompilation လုပ်နိုင်ရန် Designed ဆွဲထားတာဖြစ်ပါတယ်။ အဲဒါကြောင့် WebAssembly  က Browser execution အတွက် JavaScript မဟုတ်တဲ့ binary format အသစ်ဖြစ်ပါတယ်။ ၄င်း technology  က အဓိက  browser ဖြစ်တဲ့  Edge, Chrome, Firebox, Opera, Maxthon နဲ့အခြား browser မျိူးစုံမှာအလုပ်လုပ်နိုင်ပါတယ်။ WebAssembly က JavaScript run နေတဲ့ browser ကဲ့သို့ safe and sandboxed environment ပေးနိုင်ပြီး  User အသုံးပြုနေတဲ့ browser tab ကလွဲရင် ပြင်ပကလာတဲ့ မည်သည့်အချက် အလက် ကိုမှ Access လုပ်မှာမဟုတ်တဲ့အတွက်လုံခြုံစိတ်ချစွာသုံးနိုင်ပါတယ်။
+					</p>
+					<p class="text-justify">Interaction with Browser with Blazor</p>
+					<p  class="text-justify">
+						Blazor က  Browser ပေါ်မှာ application run ဖို့အတွက် နာမည်ကျော် ASP.NET MVC ကို သုံးပါတယ်။ တကယ်တော့ Blazor=Browser+Razor ဖြစ်ပြီး Blazor က  Razor syntax ကိုအသုံးပြုပါတယ်။ Rayzor syntax ဆိုတာ C# and HTML နဲ့ရောသုံးတာဖြစ်ပါတယ်။ Blazor ကို သုံးပြီး Web application တည်ဆောက်တဲ့အခါ JavaScript မလိုပါဘူး။ မတူတာကတော့ Razor က တကြိမ်ဘဲ ဖြစ်စဉ်ရှိပြီး Blazor ကတော့ အကြိမ်ကြိမ်ဖြစ်ပျက်နိုင်ပါတယ်။  အဲဒါက .Net Developer တွေအတွက်တော့ သတင်းကောင်းဘဲဖြစ်ပါတယ်။
+						နောက်အပိုင်းမှာ First Blazor Project ဖန်တီးတာဆွေးနွေးပေးပါ့မယ်။
+					</p class="text-justify">
+				</span>
+				<button class="btn btn-light seemore">see more...</button>
+		    </p>
+
+		</div>
+		<hr class="bold">
+
+		<div class="news">
+	    	<h2 class="text-center text-danger">ခြေရာခံ app တွေကို ပြသပေးမယ့် Apple ရဲ့ iOS လုပ်ဆောင်ချက်အသစ်</h2>
+	    	<img src="images/apple.jpg" class="img-fluid my-4">
+	    	<p class="text-justify my-3">
+	    		<p class="text-justify">
+	    			Apple ဟာနှစ်စဉ်ပြုလုပ်နေကျ ကမ္ဘာလုံးဆိုင်ရာ developer ကွန်ဖရင့်မှာ ထုတ်ကုန်တွေအတွက် privacy feature သစ်တွေကို ကြေညာလိုက်ပါတယ်။ အခု update တွေထဲမှာ တည်နေရာအချက်အလက် ဝေမျှမှုနဲ့ app က မိုက်ကရိုဖုန်းဒါမှမဟုတ် ကင်မရာကို အသုံးပြုမှုကို ပိုမိုထိန်းချုပ်နိုင်အောင် ပြုလုပ်ပေးထားပါတယ်။
+	    		</p>
+	    		<span id="txt_more1">
+	    		<p  class="text-justify">
+	    			“ကျွန်တော်တို့ရဲ့ ထုတ်ကုန်အားလုံးကို တစ်ကိုယ်ရေအချက်အလက်လုံခြုံရေး အခြေခံစည်းမျဉ်း နယ်ပယ်အဖြစ် သတ်မှတ်ထားတယ်” လို့ Apple ရဲ့ software အင်ဂျင်နီယာ အကြီးတန်း ဒုဥက္ကဋ္ဌ ခရိတ်ဖက်ဒရီချီကပြောခဲ့တယ်။
+	    			အခု update တွေကြောင့် app တွေနဲ့ဝေမျှထားတဲ့ တည်နေရာအချက်အလက်ပမာဏကို ကန့်သတ်နိုင်ပြီး ခန့်မှန်းခြေပဲ ပေးလို့ရပါတယ်။ Apple က ကင်မရာနဲ့ မိုက်ကရိုဖုန်းဖွင့်ထားတဲ့အချိန် status bar ပေါ်က လိမ္မော်ရောင် အစက်တစ်ခုကတစ်ဆင့် ရည်ညွှန်းပြတဲ့လုပ်ဆောင်ချက်ကို မိတ်ဆက်လိုက်ပါတယ်။
+	    		</p>
+	    		<p class="text-justify">
+	    			Apple က app တွေကို download မလုပ်ခင်မှာ app တောင်းဆိုမှု အချက်အလက်ပမာဏကို အသိပေးဖို့ app permission အတွက် လေဘယ်တွေကို မိတ်ဆက်ခဲ့ပါတယ်။ “Data Linked To You” နဲ့ “Data Used to Track You” ဆိုတဲ့ ကဏ္ဍနှစ်ရပ်ကို ပြသပေးပါမယ်။
+	    		</p>
+	    			</span>
+	    			<button class="btn btn-light seemore">see more...</button>
+	    		
+	    	</p>
+	    	
+	    </div>
+	    <hr class="bold">
+
+	    <div class="news">
+	    	<h2 class="text-center text-danger">The World Needs an Open Approach to Scientific Research</h2>
+	    	<img src="images/huawei.jpg" class="img-fluid my-4">
+	    	<p class="text-justify my-3">
+
+	    		<p class="text-justify">
+	    			At the webinar for Beijing-based research and science attaches from Europe and from the EU, I made the following comment on the subject of research collaboration in Europe, “The nationalization of scientific activity – country by country – is not what the world needs at this time.”
+	    		</p>
+	    		<span id="txt_more2">
+	    		<p class="text-justify">
+	    			Here’s Why
+	    		</p>
+	    		<p>
+	    			The events surrounding COVID-19 have given us all some time to reflect upon many different issues – some are of a micro or personal scale – others have a larger macro-economic dimension.
+	    			But as the world is embarking on finding a vaccine for COVID-19, there is one clear dawning realization for us all to reflect upon.
+
+	    			Research, educational, private, and public bodies from all over the world must collaborate on basic and applied research. Without intensive international engagement and co-operation, society will not be able to benefit from new innovative products and services. Governments and the private sector alike must substantially invest in basic scientific research if the new products of tomorrow are going to be delivered into the global marketplace.
+
+	    		</p>
+	    		<p class="text-justify">
+	    			The process of innovation must not be confined to any one company or any one country. Scientific excellence working together across borders can create new products that address key socioeconomic challenges in the world today. That is why so many multi-jurisdictional research teams across the globe are working on a vaccine for COVID-19.
+
+	    		</p>
+	    		
+	    		<p class="text-justify">
+	    			Huawei is one of the most innovative companies in the world.
+
+	    			Under the EU industrial scoreboard for research and development 2019 Huawei ranks fifth in the world in terms of the levels of financial investment that the company makes in the fields of R&D. This a  finding of the European Commission having surveyed 2,500 companies in the world that invest a minimum of €30 million in R&D per annum. We:
+
+	    		</p>
+	    		
+	    	</p>
+	    	
+	    		<ul>
+	    			<li> Run 23 research centres in 12 countries in Europe.</li>
+	    			<li> Hold 240+ technology partnership agreements with research institutes in Europe.</li>
+	    			<li>Collaborate with over 150 European Universities on research.</li>
+	    			<li>Employ 2,400 researchers and scientists in Europe.</li>
+	    			<li> Invest 15% of our global revenues into research each year and this level of investment is going to increase. </li>
+	    		
+	    		</ul>
+	    	<p class="text-justify">
+	    		International collaboration is at the heart of the Huawei business model when it comes to our research activities.
+
+	    		Europe is home to 25% of all global R&D investment. A third of all scientific publications that are reviewed in the world today emanate from European researchers. Europe is home to the best scientists in the world. And this is why so much of Huawei investment on the research side is based in Europe.
+
+	    		Huawei has participated in 44 collaborative research projects under both FP7 and under Horizon 2020. We have engaged in research covering, for example, 5G, cloud and device technologies and the building of ICT platforms that will deliver the smart cities of the future. So Huawei has a strong embedded imprint on research in Europe, and this remain the case for many years to come. In fact, Huawei’s first research facility opened in Sweden in 2000.
+	    	</p>
+	    	<img src="images/huawei2.jpg" class="photo">
+	    	<p class="text-justify">
+	    		Horizon Europe – the next EU research, innovation and science instrument 2021-2027 will play a central role in delivering upon the policy agenda of the EU institutions. This includes strengthening the industrial strategies of the EU, delivering upon the EU Green deal and tackling the UN sustainability goals.
+
+	    		Huawei can positively support the implementation of this exciting new EU policy agenda.
+
+	    		The ‘nationalization’ or ‘de-compartmentalization’ of scientific and research activity – country by country – is not what the world needs today. The public, private, educational and governmental sectors  need to take an open approach to scientific engagement. This will ensure that the key global challenges facing the world today can be positively addressed for all of mankind. 
+	    	</p>
+	    			
+	    		</span>
+	    		<button class="btn btn-light seemore">see more...</button>
+
+	    	</p>
+	    		
+	    </div>
+	    <hr class="bold">
+
+	    <div class="news">
+	    	<h2 class="text-center text-danger">Website ပေါ်မှာ ဓာတ်ပုံတွေကို ဘယ်လိုသုံးသင့်လဲ ?</h2>
+	    	<p class="text-justify my-3">
+	    		<p class="text-justify">
+	    		ကိုယ့်ရဲ့ Website မှာသုံးမယ့်ပုံများက website ရဲ့ စွဲဆောင်မှုပေါ်အများကြီး အကျိုးသက်ရောက်မှုရှိပါတယ်။ဒါကြောင့် website မှာတင်မယ့် ဓာတ်ပုံများကို ကောင်းမွန်စွာ ရွေးချယ်ရန် နှင့် အကောင်းဆုံး optimized လုပ်ဖို့လိုအပ်ပါတယ်။
+
+	    		ဓာတ်ပုံရဲ့ resolution နဲ့ size တို့ပေါ်မူတည်ပြီး ဓာတ်ပုံရဲ့ အရွယ်အစား ပမာဏ ( file size ) က အပြောင်းအလဲရှိတက်ပါတယ်။
+
+	    		ကိုယ်ရွေးချယ်ထားတဲ့ ပုံကိုမှ တက်နိုင်သမျှ အရွယ်အစား ပမာဏ သေးငယ်စွာဖြစ်အောင် optimized ပြုလုပ်ပေးရမှာပါ။
+
+	    		Optimize လုပ်ပီးသုံးရင် ကိုယ့် website ရဲ့ loading time ကိုလျင်မြန်စေပါတယ်။
+
+	    		website တခုလုံးမြင်ရဖို့အတွက် လိုအပ်တဲ့ ပုံတွေ ၊ စာသားတွေကို Server ကနေတဆင့် လှမ်းယူဖော်ပြတာဖြစ်တဲ့အတွက် ပုံ အရွယ်အစား ပမာဏ ကျစ်လစ်နေရင် website ကိုပိုမိုလျှင်မြန်စေမှာဖြစ်ပါတယ်။
+
+	    		ဘာကြောင့် အရွယ်အစား ပမာဏ သေးငယ်ဖို့လိုလဲဆိုရင် website ရဲ့ performance အတွက်ပါ။ကိုယ်သုံးတဲ့ ပုံတွေက အရွယ်အစား ပမာဏ ( image size or file size ) ကြီးမား နေရင် website ရဲ့ loading time ကိုနှောင့်နှေးစေပါတယ်။
+
+	    		Google က 2010 Webmaster Blog မှာ ကြေငြာချက်အရ သူတို့ရဲ့ Google Algorithm ရှာဖွေမှု အဆင့်များမှာ website ရဲ့ မြန်နှုန်းကိုပါ ထည့်သွင်းတွက်ချက်ကြတယ်လို့ ဆိုခဲ့ကြပါတယ်။ဒါကြောင့် website ရဲ့ SEO Friendly ဖြစ်မှုကိုပါလျော့ကျစေပါတယ်။
+
+	    	</p>
+	    	<span id="txt_more3">
+	    		<p class="text-justify">
+	    		website မှာသုံးမယ့် ပုံအရွယ်အစား ပမာဏ ( image size , file size ) အသေးမားဆုံး နဲ့ အပေါ့ပါးဆုံး image format များကို အောက်တွင်အဆင့်လိုက်ဖော်ပြထားပါတယ်။
+	    	</p>
+	    	<ul>
+	    		<li>JPEG & JPG</li>
+	    		<li>PNG</li>
+	    		<li>SVG</li>
+	    		<li>WEBP</li>
+
+	    	</ul>
+	    	<p class="text-justify">
+	    		image optimization လွယ်လင့်တကူ လုပ်လို့ရတဲ့ နည်းလမ်းလေးများကိုပြောပြပေးသွားပါမယ်။
+
+	    		ကိုယ်သုံးမယ့် ပုံတွေကို website ရဲ့ လိုအပ်ချက်အတိုင်း ၊ Guideline ထဲကအတိုင်း ပိုင်းဖြတ်ပါ – crop image size ratio ။ ပိုင်းဖြတ်တဲ့နေရာမှာ Adobe Photoshop, Paint အစရှိသဖြင့် မိမိကွန်ပြူတာထဲမှ ဆော့ဖ်ဝဲများနှင့်လဲ ပိုင်းဖြတ်နိုင်သလို အောက်ကပေးထားတဲ့ website များကနေလဲ တိုက်ရိုက် ပိုင်းဖြတ်လို့ရပါတယ်။
+
+	    		I Love Image
+
+	    		Img to Go
+
+	    		Ratio Size ဖြတ်ပြီးတဲ့နောက်မှာ image size ကိုတက်နိုင်သလောက် လျှော့ချပါ ။
+	    		လိုချင်သော Ratio အတိုင်း ပုံကို Crop ပီးရလာရင် ပုံရဲ့ Size လျော့ချဖို့အတွက် အောက်တွင်ဖော်ပြထားသော website များတွင် optimized ပြုလုပ်ပါ။
+
+	    		TinyPng
+
+	    		Imagecompressor
+
+	    		Compressor
+
+	    		မိမိရဲ့ Website မှာ ဓာတ်ပုံများ ထည့်သွင်းတော့မယ်ဆိုရင် အထက်ပါဖော်ပြချက် နှစ်ချက်ကို ပြုလုပ်ပြီးမှ ထည့်သွင်းအသုံးပြုဖို့ အထူးအကြုံပြုလိုက်ရပါတယ်…
+	    	</p>
+
+	    		
+	    	</span>
+	    	<button class="btn btn-light seemore">see more...</button>
+
+	    	</p>
+	    
+	   </div>
+	   <hr class="bold">
+	   <div class="news">
+	   		<h2 class="text-center text-danger">Microsoft Cloud Computing</h2>
+	   		<img src="images/cloud.png" class="img-fluid my-3">
+	   		<p class="text-justify my-3">
+	   		<p class="text-justify">
+	   			ယနေ့ခေတ် IT လောက အတွင်း နာမည်ကျော်ကြားလာပြီး သွင်သွင်ကျယ်ကျယ်အသုံးပြုလာသော Cloud Computing Technology ဆိုသည်မှာ IT Trend တွေထဲ မှာ အသစ်ပေါ်ထွက်ထားသော New Tech ဖြစ်ပါတယ်။ Online Internet (Cloud) မှ organization တိုင်းအတွက်လိုအပ်သော services , resources, databases, networking, software, analytic နှင့် intelligence စတာတွေကို တိုက်ရိုက် ယူသုံးနိုင်သော computing service ဖြစ်ပါတယ်။ အရင် တုန်းက လိုမျိုး Resources တွေကို set up တစ်ခါ လုပ်ပြီ implement လုပ်စရာမလိုတော့ပါဘူး။ 
+	   		</p>
+	   		<span id="txt_more4">
+	   			<p class="text-justify">
+	   				Cloud computing အသုံးပြု မယ်ဆိုရင်လဲ Operating cost အတွက်  "Pay As You Go" payment method က မိတ်ဆွေတို့ Cloud Service မှာ သုံးတဲ့ Service တစ်ခုချင်းစီအတွက်ပဲ ကုန်ကျစရိတ်ရှိတဲ့ အတွက်ကြောင့် Cost အတွက် scale in , scale out ပြုလုပ်နိုင်တာဖြစ်သည်အပြင် cost-effective လည်းဖြစ်တညကိုလဲ အကျိုးကျေးဇူးတစ်ခုအနေနဲ့ အသုံးပြုနိုင်မှာဖြစ်ပါတယ်။ အခြားအကျိုးကျေးဇူတွေကတော့ - 
+	   			</p>
+	   			<p class="text-justify">
+	   				<ul>
+	   					<li>Hardware & Software resource တွေ ကိုယ်တိုင် provide လုပ်စရာမလိုတော့တဲ့ အတွက် အဲ့ဒီ cost တွေကို လျော့ကျသွားသော cost benefit</li>
+	   					<li> မိမိ organization အတွက် လိုအပ်တဲ့ resources တွေ ကို scalling ပြု လုပ်ကာ အသုံးပြု နိုင်သောကြောင့် resource တွေ ပွထနေမှုပြဿနာကို ဖြေရှင်းပေးနိုင်သော Global Scale benefit </li>
+	   					<li>နောက်ဆုံးပေါ် generation နှင့်မြန်ဆန်သော Hardware တွေအသုံးပြု ကာ တည်ဆောက်ထားသော worldwide network of datacenters တွေ ပေါ်မှာ run ထားပြီး apps တွေနှင့် ကြီးမားတဲ့ economies scalling တွေရဲ့ network latency ကို လျော့ကျပေးထားသော အကျိုးကျေးဇူးတွေပါတဲ့ Performance benefit </li>
+	   					<li>data, apps, infrastructure တွေအတွက် potential threads တွေရန်မှ ကာကွယ်ဖို့ overall security posture ကို a broad set of policies , technologies , control တွေဖြင့် cloud provider တွေဘက်မှ မြှင့်တင်ပေးထားသော Security benefit</li>
+	   					<li>Cloud service အများစုကို self-service , on demand စနစ် ဖြင့် provide ပြုလုပ်ပေးထားတာဖြစ်တဲ့အတွက် မီနစ် အနည်းငယ်တွင်းမှာ များစွာသော computing resources တွေကို ထောက်ပံ့ပေးနိုင်သော Speed benefit</li>
+	   					<li>On-site datacenters ကဲ့သို့ Hardware setup , software packing , time- consuming စတဲ့ task တွေ ကို cloud computing မှာမလိုတော့တဲ့အတွက် အချိန်ကုန်သက်သာကာ မိမိတို့ ရည်မှန်းထားသလောက် business goals တွေ ဆီ အရောက် လှမ်းနိုင်သော Productivity benefit</li>
+	   					<li>မိမိဒေတာ တွေကို cloud provider site တွေ မှာ အချိန် မရွေးရယူနိုင်သော data backup, disaster recovery , business continuity features တွေ ပါသော Reliability benefit  တွေပဲ ဖြစ်ပါတယ်။ </li>
+	   				</ul>
+	   			</p>
+	   			
+	   		</span>
+	   		<button class="btn btn-light seemore">see more...</button>
+	   </div>    	
+	</div>
+	   
+
+
+	<!-- Contact us foot -->
+	<div class="container-fluid">
+		<div class="row bg-dark py-5">
+			<div class="col-lg-6 col-md-6 col-sm-12 text-center ">
+				<h1 class="m-0 foot-text text-light">X.News</h1>
+				<small class="text-secondary ml-5">presented by Excellent</small>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 ">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<a href="https://mail.google.com/" class="text-light text-center">
+							<span class="fa-stack fa-2x text-danger">
+						  	<i class="fas fa-circle fa-stack-2x"></i>
+						  	<i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<a href="https://www.facebook.com/" class="ml-3">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x bg-ligth"></i>
+								<i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+							</span> 
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<a href="https://www.whatsapp.com/" class="ml-3">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x text-success"></i>
+								<i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i>
+							</span> 
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<a href="https://twitter.com/" class="ml-3">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+							</span> 
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer class="footer_color py-4">
+		<h5 class="text-center text-muted">Copyright&copy; By Excellent 2020.All right reserved.</h5>
+	</footer>
+
+
+
+<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$(".seemore").click(function(){
+			$("#txt_more").fadeToggle("slow");
+			$(".seemore").hide(1000);
+		});
+		$(".seemore").click(function(){
+			$("#txt_more1").fadeToggle("slow");
+			$(".seemore").hide(1000);
+		});
+		$(".seemore").click(function(){
+			$("#txt_more2").fadeToggle("slow");
+			$(".seemore").hide(1000);
+		});
+		$(".seemore").click(function(){
+			$("#txt_more3").fadeToggle("slow");
+			$(".seemore").hide(1000);
+		});
+		$(".seemore").click(function(){
+			$("#txt_more4").fadeToggle("slow");
+			$(".seemore").hide(1000);
+		});
+
+
+	})
+</script>
+
+</body>
+</html>

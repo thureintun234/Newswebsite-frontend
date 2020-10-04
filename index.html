@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>X New - Breaking News,Latest News,Trending News</title>
+	<link rel="icon" href="images/logo.PNG">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick-theme.css">
+	<style>
+		.slider {
+			width: 80%;
+			margin: 100px auto;
+		}
+
+		.slick-slide {
+			margin: 0px 20px;
+		}
+
+		.slick-prev:before,
+		.slick-next:before {
+			color: #8a0606;
+		}
+
+		.slick-slide {
+			transition: all ease-in-out .3s;
+			opacity: .2;
+		}
+
+		.slick-active {
+			opacity:1;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- Navigation Bar -->	
+	<nav class="navbar navbar-expand-md navbar-light py-4 mr-4">
+		<div class="container-fluid nav_color px-5 py-1">
+			<a href="index.html" class="navbar-brand text-light nav_name">
+				X.News
+			</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#myNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="myNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link text-light">HOME</a></li>
+					<li class="nav-item dropdown"><a href="index.html" class="nav-link dropdown-toggle text-light" id="newstype" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NEWS </a>
+						<div class="dropdown-menu list_item" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="sport.html">Sports</a>
+							<a class="dropdown-item" href="politice.html">Political</a>
+							<a class="dropdown-item" href="it.html">Information Technology</a>
+							<a class="dropdown-item" href="edu.html">Education</a>
+							<a class="dropdown-item" href="economic.html">Economic</a>
+							<a class="dropdown-item" href="health.html">Health</a>
+							<a class="dropdown-item" href="food.html">Food</a>
+							<a class="dropdown-item" href="fashion.html">Fashion</a>
+							<a class="dropdown-item" href="wealther.html">Weather</a>
+						</div>
+					</li>
+					<li class="nav-item"><a href="about.html" class="nav-link text-light">ABOUT</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link text-light">CONTACT</a></li>
+					<li class="nav-item"><a href="trendnews.html" title="trendnews" class="nav-link text-light rotating"> <i class="fas fa-fire-alt"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Slides for news carousel -->
+	<div class="container my-5">
+		<div class="carousel slide" data-ride="carousel" id="myslide">
+			<ol class="carousel-indicators">
+				<li data-target="#myslide" data-slide-to="0" class="active"></li>
+				<li data-target="#myslide" data-slide-to="1"></li>
+				<li data-target="#myslide" data-slide-to="2"></li>
+				<li data-target="#myslide" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/tennis.jpg">
+					<div class="imgopc"></div>
+					<div class="carousel-caption">
+						<h5>Tennis Sport</h5>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/health.jpg">
+					<div class="imgopc"></div>
+					<div class="carousel-caption">
+						<h5>Health</h5>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/political.jpg">
+					<div class="imgopc"></div>
+					<div class="carousel-caption">
+						<h5>Protest</h5>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/it.jpg">
+					<div class="imgopc"></div>
+					<div class="carousel-caption">
+						<h5>Technology</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Combine grid and card for news -->
+	<div class="container my-3">
+		<div class="row">
+			<div class="col-md-8">
+				<!-- left 3 columna new -->
+				<h1 class="text-center my-3">Top Breaking News</h1>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-6 my-3">
+						<div class="card box_img">
+							<img src="images/edulogo1.jpg" class="card-img-top img_increase">
+							<div class="card-body">
+								<h5 class="card-title">Education</h5>
+								<a href="edu.html" class="card-text text-muted">အခြေခံပညာသင်ရိုး ညှိနှိုင်းအစည်းအဝေးကို ယနေ့ နံနက် ၉ နာရီတွင်...</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 my-3">
+						<div class="card box_img">
+							<img src="images/it.jpg" class="card-img-top">
+							<div class="card-body">
+								<h5 class="card-title">Information Tech</h5>
+								<a href="it.html" class="card-text text-muted">Blazor ဆိုတာ WebUI framework ကို C# နဲ့ .Net Core  ကို front end...</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 my-3">
+						<div class="card box_img">
+							<img src="images/health.jpg" class="card-img-top">
+							<div class="card-body">
+								<h5 class="card-title">Health</h5>
+								<a href="health.html" class="card-text text-muted">ဝမ်းချုပ်ခြင်းဆိုတာက တနည်းအားဖြင့် အူမကြီးလှုပ်ရှားမှု တစ်ပတ်မှာ ၃ကြိမ်ထက်...</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 my-3">
+						<div class="card box_img">
+							<img src="images/fashionhome.jpg" class="card-img-top">
+							<div class="card-body">
+								<h5 class="card-title">Fashion</h5>
+								<a href="fashion.html" class="card-text text-muted">Daily wear မြန်မာဝတ်စုံ အတွက်ရွေးချယ်ရာမှာ Fabric, color, design ဆိုပီး ...</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 my-3">
+						<div class="card box_img">
+							<img src="images/ecohome.jpg" class="card-img-top">
+							<div class="card-body">
+								<h5 class="card-title">Economic</h5>
+								<a href="economic.html" class="card-text text-muted">FILE - In this May 10, 2019, file photo a container ship is...</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 my-3">
+						<div class="card box_img">
+							<img src="images/wealhome.jpg" class="card-img-top">
+							<div class="card-body">
+								<h5 class="card-title">Wealther</h5>
+								<a href="wealther.html" class="card-text text-muted">၂၀၂၀ ပြည့်နှစ်၊ ဇူလိုင်လ လပတ်အတွက် မိုးလေ၀သခန့်မှန်းချက်...</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 my-3">
+						<div class="card box_img">
+							<img src="images/p6.jpg" class="card-img-top">
+							<div class="card-body">
+								<h5 class="card-title">Food</h5>
+								<a href="food.html" class="card-text text-muted">In a medium bowl, mix all the marinade ingredients with...</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 my-3">
+						<div class="card box_img">
+							<img src="images/football.jpg" class="card-img-top">
+							<div class="card-body">
+								<h5 class="card-title">Sport</h5>
+								<a href="sport.html" class="card-text text-muted">Arsenal head coach Mikel Arteta has suggested to Football...</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 my-3">
+						<div class="card box_img">
+							<img src="images/political.jpg" class="card-img-top">
+							<div class="card-body">
+								<h5 class="card-title">Political</h5>
+								<a href="politice.html" class="card-text text-muted">ဒေါ်အောင်ဆန်းစုကြည် နေပြည်တော်မှာ ရွေးကောက်ပွဲ ဝင်ပြိုင်မလား...</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<!-- sider bar advertisement -->
+				<div class="col-md-12 col-sm-12 my-2">
+					<div class="card">
+						<div class="row no-gutters">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<img src="images/coca-cola.gif" class="card-img img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12 my-2">
+					<div class="card">
+						<div class="row no-gutters">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<img src="images/TelenorUsers.gif" class="card-img img-fluid" >
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12 my-2">
+					<div class="card">
+						<div class="row no-gutters">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<img src="images/gold.gif" class="card-img img-fluid ">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12 my-2">
+					<div class="card">
+						<div class="row no-gutters">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<img src="images/bmw.gif" class="card-img img-fluid ">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- News slide for any news -->
+	<div class="container">
+		<div class="jumbotron my-5">
+			<h1 class="text-center">Recommend News For you</h1>
+			<div class="slick_slider slider">
+				<div class="text-center w-100">
+					<a href="">
+						<div class="card">
+							<img src="images/health.jpg" class="card-img-top">
+							<div class="card-body">
+								<a href="health.html" class="text-muted">
+									Health is very importnat for everyone.So we should keep our..
+								</a>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="text-center w-100">
+					<a href="">
+						<div class="card">
+							<img src="images/football.jpg" class="card-img-top">
+							<div class="card-body">
+								<a href="sport.html" class="text-muted ">
+									Football sports is very famous in the world. There are many...
+								</a>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="text-center w-100">
+					<a href="">
+						<div class="card">
+							<img src="images/it.jpg" class="card-img-top">
+							<div class="card-body">
+								<a href="it.html" class="text-muted">
+									In this years, information technology part is increasing fast.
+								</a>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="text-center w-100">
+					<a href="">
+						<div class="card">
+							<img src="images/ecohome.jpg" class="card-img-top">
+							<div class="card-body">
+								<a href="economic.html" class="text-muted">
+									Economics is a social science concerned with the production...
+								</a>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="text-center w-100">
+					<a href="">
+						<div class="card">
+							<img src="images/wealhome.jpg" class="card-img-top">
+							<div class="card-body">
+								<a href="wealther.html" class="text-muted">
+									Weather is the state of the atmosphere, describing for...
+								</a>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- youtube video news for latest -->
+	<div class="container my-5 text-center">
+		<h1 class="text-center my-5">Videos for world's News</h1>
+		<div class="row">
+			<div class="col-md-6 col-sm-12 p-0 m-0">	
+				<video width="300" controls>
+					<source src="videos/donal.mp4" type="video/mp4">
+					<source src="videos/donal.ogg" type="video/ogg">
+				</video>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<h3 class="text-danger">Donal Trump</h3>
+				<p class="text-justify text-mute">Donald John Trump (born June 14, 1946) is the 45th and current president of the United States. Before entering politics, he was a businessman and television personality. Trump was born and raised in Queens, a borough of New York City, and received a bachelor's degree in economics from the Wharton School.</p>
+			</div>
+			<hr>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-6 col-sm-12 p-0 m-0">
+				<video width="300" controls>
+					<source src="videos/covid19.mp4" type="video/mp4">
+					<source src="videos/covid19.ogg" type="video/ogg">
+				</video>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<h3 class="text-danger">Covid-19</h3>
+				<p class="text-justify text-mute">WHO experts will travel to China to work together with their Chinese counterparts to prepare scientific plans for identifying the zoonotic source of the SARS-COV-2 virus. The experts will develop the scope and TOR for a WHO-led international mission. </p>
+			</div>
+			<hr>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-6 col-sm-12 p-0 m-0">
+				<video width="300" controls>
+					<source src="videos/mma.mp4" type="video/mp4">
+					<source src="videos/mma.ogg" type="video/ogg">
+				</video>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<h3 class="text-danger"> Kelvin Gastelum says he has “never wanted a rematch any more” than he does</h3>
+				<p class="text-justify text-mute">Kelvin Gastelum wants to run things back with Darren Till. In the co-main event of UFC 244 last November, Gastelum was looking to get back.. </p>
+			</div>
+		</div>
+		<hr>
+	</div>
+
+	<!-- Contact us foot -->
+	<div class="container-fluid">
+		<div class="row bg-dark py-5">
+			<div class="col-lg-6 col-md-6 col-sm-12 text-center ">
+				<h1 class="m-0 foot-text text-light">X.News</h1>
+				<small class="text-secondary ml-5">presented by Excellent</small>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 ">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<a href="https://mail.google.com/" class="text-light text-center">
+							<span class="fa-stack fa-2x text-danger">
+						  	<i class="fas fa-circle fa-stack-2x"></i>
+						  	<i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<a href="https://www.facebook.com/" class="ml-3">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x bg-ligth"></i>
+								<i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+							</span> 
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<a href="https://www.whatsapp.com/" class="ml-3">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x text-success"></i>
+								<i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i>
+							</span> 
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<a href="https://twitter.com/" class="ml-3">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+							</span> 
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- footer -->
+	<footer class="footer_color py-4">
+		<h5 class="text-center text-muted">Copyright&copy; By Excellent 2020.All right reserved.</h5>
+	</footer>
+
+
+
+<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="slick-master/slick/slick.js"></script>
+
+
+
+
+<script>
+	$(document).ready(function(){
+		$('.slick_slider').slick({
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 2000,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 3,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+			]
+		});
+	})
+</script>
+
+
+</body>
+</html>
+
+

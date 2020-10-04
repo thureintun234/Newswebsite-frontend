@@ -1,0 +1,188 @@
+/*naviation*/
+nav ul li div.list_item a:hover{
+	background-image: linear-gradient(to right, red , #8a0606);
+	color:white;
+	border-bottom: 1px solid black;
+}
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+/*font type change*/
+@font-face{
+	src:url("fontfamily/GrenzeGotisch-VariableFont_wght.ttf");
+	font-family: "dancing";
+}
+
+.rotating {
+    -webkit-animation: rotating 2s linear infinite;
+ 	margin-left:30px;
+ 	position: relative;
+ 	width:20px;
+
+}
+
+
+nav div a.nav_name{
+	font-family: "dancing";
+	font-size: 2rem;
+}
+
+
+div.nav_over{
+	overflow: hidden;
+}
+div img.nav_img{
+	width:40px;
+}
+
+div.nav_color{
+  	position: fixed;
+  	background-image: linear-gradient(to right, red , #8a0606);
+  	z-index: 1;
+  	left:0;
+  	top: 0;
+  	opacity: 0.9;
+}
+div img.sidebar_img{
+	height: 100%;
+}
+
+/*carousel stage img opcity*/
+div.imgopc{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+	background:rgba(0,0,0,0.4);
+}
+/*card image box shadow*/
+div.box_img:hover{
+		box-shadow:3px 3px 4px #8a0606;
+		transition: .7s;
+}
+
+/*footer*/
+footer.footer_color{
+	background-color: black;
+}
+div h1.foot-text{
+	color:#8a0606;
+	font-family: "dancing";
+}
+footer h5{
+	font-family: "dancing";
+}
+/*edu*/
+div img.pic{
+	width: 100%;
+	height: 400px;
+}
+
+/*IT-news*/
+
+div p.IT_new{
+	text-indent: 1;
+}
+
+div img.photo{
+	width: 100%;
+	height: 400px;
+}
+div img.photo1{
+	width: 100%
+	height:400px;
+}
+
+/*health image*/
+div img.heal_img{
+	width: 80%;
+	height: 350px;
+}
+div img.fash_img{
+	width: 100%;
+	height: 400px;
+}
+/*economic image*/
+div img.economic{
+	width: 100%;
+	height: 400px;
+}
+/*wealther*/
+div img.wpic{
+	width: 100%;
+	height: 400px;
+}
+/*Food Image*/
+div img.food_img{
+	width: 100%;
+	height: 400px;
+}
+/*sport image*/
+div img.sport_img{
+	width:100%;
+	margin:0 auto;
+}
+
+/*contacu us*/
+div img.img_content{
+	margin-top:-80px;
+	width:40%;
+	border-color: #c21e10;
+}
+
+div hr.driver{
+	max-width: 5.25rem;
+	border-width: 0.25rem;
+	border-color: #c21e10;
+}
+
+div p.btext{
+	color: #c21e10;
+}
+
+/*for mapiframe responsive*/
+/*.resp-container {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}*/
+
+/*content page for hover*/
+div.content_hov:hover{
+	background-color:silver;
+	color:white;
+	box-shadow:6px 6px 4px gray;
+	transition:.5s;
+}
+
+
+/*about img*/
+div img.abpic{
+	width: 600px;
+	height: 500px;
+	/*border:2px solid black;*/
+}
+
+
+/*About page image*/
+div img.group_img{
+	margin:0 auto;
+	margin-top: -50px;
+}
+div.aboutbg{
+	background-image: url("images/aboutbg.png");
+	padding-bottom: 12px;
+}
+
+/*hr line*/
+hr.bold{
+	border-color:red;
+}
